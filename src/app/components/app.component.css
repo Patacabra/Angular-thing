@@ -1,0 +1,12 @@
+.main{
+    border: aquamarine 2px solid;
+    background-color: aquamarine;
+    font-size: 2em;
+    font-family: monospace;
+};
+
+.pregunta-h2{
+    color: blue;
+    font-size: 1.5em;
+    font-family: sans-serif;
+}

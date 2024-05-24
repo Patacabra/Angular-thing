@@ -1,0 +1,21 @@
+<div class="home-div-container">
+    <app-layout-header/>
+        <main class="home-main">
+            <div class="film-container">
+                <div *ngFor="let film of films" 
+                class="film-card">
+                    <div class="film-header">
+                        <h2>{{ film.titulo }}</h2>
+                        <h4>{{ film.ano_lanzamiento }}</h4>
+                    </div>
+                <div class="film-info">
+                   <p><b>Género: </b>{{ film.genero }}</p>
+                   <p><b>Descripción: </b>{{ film.descripcion }}</p>
+                </div>
+                <img src='assets/images/borat.jpg' alt="imagen de la película" class="film-image"/>
+                
+    
+ 
+</div>
+<app-layout-footer/>
+<div><button (click) = "onRefreshClick()">Actualizar Películas</button></div>
